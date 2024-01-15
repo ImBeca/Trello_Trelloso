@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html id="html" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    <script type="module" src="js/main.js"></script>
+</head>
+
+<body id="body">
+    <div id="barra">
+        <div>
+            <h1> Trelloso Client</h1>
+            <img id="icone" src="icones/arrow-right-from-bracket-solid.svg" alt="sair">
+        </div>
+        <div id="usuario">
+            <p id="dados">informações</p>
+            <img id="foto" src="" alt="imagem usuario">
+        </div>
+    </div>
+
+    <div id="login">
+        <form id="loginForm">
+
+            <label for="apelido">Nome de Usuário</label>
+            <input type="text" name="apelido" id="nomeLogin">
+
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senhaLogin">
+
+            <button type="submit"> Entrar</button>
+            <p>Não possui conta? então <a href="#" id="Cadastrar">clique aqui para criar uma.</a></p>
+
+
+        </form>
+
+
+    </div>
+
+    <div id="cadastro">
+        <form id="cadastroForm">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+
+            <label for="apelido">Nome de Usuário</label>
+            <input type="text" name="apelido" id="apelido">
+
+            <label for="imagem">URL Para Imagem de Perfil</label>
+            <input type="text" name="imagem" id="imagem">
+
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha">
+
+            <label for="ConfSenha">Confirmar Senha</label>
+            <input type="password" name="ConfSenha" id="ConfSenha">
+
+            <button type="submit"> cadastrar</button>
+            <p>Já possui conta? então <a href="#" id="logar">clique aqui para fazer o login</a></p>
+
+        </form>
+    </div>
+    
+    <div class="esconder" id="escDeslo">
+
+        <div id="deslogar">
+
+            <p>deseja <br> mesmo sair?</p>
+
+            <div>
+                <button id="nao">Não</button>
+                <button id="sim">Sim</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="esconder" id="altInfo">
+
+        <div id="informacoes">
+
+            <div id="infoBarra">
+                <div id="info">
+
+                    <h2>Informações</h2>
+                </div>
+                <div id="alt">
+                    <h2>Alterações</h2>
+                </div>
+            </div>
+            <form id="AltForm">
+
+                <label for="Altnome">Nome</label>
+                <input type="text" name="Altnome" id="Altnome">
+
+                <label for="Altimagem">URL Para Imagem de Perfil</label>
+                <input type="text" name="Altimagem" id="Altimagem">
+
+                <label for="Altsenha">Senha</label>
+                <input type="password" name="Altsenha" id="Altsenha">
+
+                <label for="AltConfSenha">Confirmar Senha</label>
+                <input type="password" name="AltConfSenha" id="AltConfSenha">
+
+                <button type="submit"> alterar</button>
+
+            </form>
+
+            <div id="exibirInfo">
+
+                <img id="infoFoto" src="" alt="foto">
+                <div>
+                    <p id="infoNome"> </p>
+                    <p id="infoApelido"></p>
+                </div>
+                <button id="deletar">deletar conta</button>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="esconder" id="apagar">
+
+            <div id="apagarConta">
+
+                <p>deseja <br> excluir sua conta?</p>
+
+                <div>
+                    <button id="Apagarnao">Não</button>
+                    <button id="Apagarsim">Sim</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="acoes">
+
+        <div id="barraLateral">
+            <div id="Todo">
+
+                <h2>Todo</h2>
+            </div>
+
+            <div id="favoritos">
+
+                <h2>Favoritos</h2>
+
+            </div>
+
+            <div id="editarConta">
+
+                <h2>Alterações</h2>
+
+            </div>
+
+        </div>
+
+        <div id="conteudo">
+
+
+
+            <div id="tudo">
+
+                <h2>Todo conteudo</h2>
+                <div id="parte1">
+                    <div id="addQuadro">Adicionar Quadro +</div>
+                    <div id="recentes">
+
+                        
+                        
+                        
+                        <div class="quadro">
+                            <h3 class="Qnome">nome do quadro</h3>
+
+                            <img class="estrela" src="icones/star-regular.svg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="boards">
+                    <h3>Quadros</h3>
+
+                    <div id="quadros">
+
+                        
+                        
+                        
+                        <div class="quadro">
+                            <h3 class="Qnome">nome do quadro</h3>
+
+                            <img class="estrela" src="icones/star-regular.svg" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div id="favoritos2">
+
+                <div id="fav">
+                    <h3>Quadros</h3>
+
+                    <div id="quadrosf">
+
+                        
+                        
+                        
+                        <div class="quadro">
+                            <h3 class="Qnome">nome do quadro</h3>
+
+                            <img class="estrela" src="icones/star-regular.svg" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="esconder" id="ediQuadros">
+        <div id="divQuadros">
+
+        
+        <form id="criarQuadro">
+
+            <label for="Qnome">Nome do Quadro</label>
+            <input type="text" id="Qnome" minlength="1" required>
+
+            <label for="opcao">Cor do Quadro</label>
+
+            <select id="opcoes" name="opcao">
+                <option value="#70823e">Verde</option>
+                    <option value="#e0b44a">Amarelo</option>
+                    <option value="#dfcf99">Bege</option>
+                    <option value="#d8853f">Salmão</option>
+                    <option value="#982608">Vermelho</option>
+                    <option value="#8f400d">Marron</option>
+              </select>
+
+              <button type="submit">criar</button>
+
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
